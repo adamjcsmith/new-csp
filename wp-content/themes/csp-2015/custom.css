@@ -1,0 +1,18 @@
+/* 	Overrides */
+
+header { background: #556DA0; }
+header a { color: white; }
+
+nav li { padding: 20px 10px; }
+
+nav li ul { top: 4.5em; background: #556DA0; border: none; }
+nav li ul:hover { background: rgba(70,70,70,1); }
+nav li ul a { color: white; }
+
+#nav-icon { background: white; color: black; min-width: auto; min-height: auto; }
+
+/* New */
+
+.nav-text-dim { color: rgba(255,255,255,0.8); padding-left: 10px; }
+
+.example { background: #f2f2f2; width: 100%; height: 100%; } 
