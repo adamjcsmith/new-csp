@@ -1,4 +1,7 @@
 <?php get_header(); ?>
+	
+	
+	<!--
 	<div id="main">
 		<div id="content">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -12,4 +15,9 @@
 	</div>
 <div id="delimiter">
 </div>
+
+-->
+
+	<h2 class="c p20 dim thin">Something here soon.</h2>
+
 <?php get_footer(); ?>
