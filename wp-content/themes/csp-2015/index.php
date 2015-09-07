@@ -5,9 +5,12 @@
 	<?php $image = get_field('page_banner_image'); 
 		echo "<div class='page-banner cf' style='background-image:url(" . $image['url'] . ")' >";
 			
-		$title =  $post->post_title;;	
+		$title =  $post->post_title;	
+		$subtitle = $post->subtitle;
+		$description = $post->page_description;
 		
-		echo "<div class='page-title p2'><h1>" . $title . "</h1></div>";
+		echo "<div class='page-title'><h1>" . $title . "</h1><h3 class='m-hide'>". $subtitle ."</h3></div>";
+	
 		
 		echo "<div class='social-box p1'>
 		
@@ -23,13 +26,17 @@
 		</div>";
 			
 		echo "</div>";
+		
+		if(isset($post->page_description)) {
+			echo "<div class='panel c'><p>". $description ."</p></div>";
+		}
 	?>
+	
+	<?php the_content(__('(more...)')); ?>
 	
 	<div style="height:2000px; width: 100%; color: #f1f1f1; ">
 	
 	</div>
-
-
 	
 	<!--
 	<h1><?php the_title(); ?></h1>

@@ -1,0 +1,998 @@
+#  POT (Portable Object Template)
+# 
+#  This file is part of the Add-Meta-Tags plugin for WordPress.
+# 
+#  http://www.g-loaded.eu/2006/01/05/add-meta-tags-wordpress-plugin/
+# 
+#  Copyright (C) 2006-2013 George Notaras <gnot@g-loaded.eu>
+# 
+#  Licensed under the Apache License, Version 2.0 (the "License");
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+# 
+# 
+# Translators:
+# Adnan Al-Malek <king-a-s@hotmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Add-Meta-Tags translations\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-22 18:18+0300\n"
+"PO-Revision-Date: 2015-06-25 10:56+0000\n"
+"Last-Translator: George Notaras <gnot@g-loaded.eu>\n"
+"Language-Team: Arabic (http://www.transifex.com/p/add-meta-tags/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: add-meta-tags.php:89
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: amt-admin-panel.php:67
+msgid "Add Meta Tags"
+msgstr "أضف البيانات الوصفية"
+
+#: amt-admin-panel.php:68
+msgid ""
+"Add basic meta tags and also Opengraph, Schema.org Microdata, Twitter Cards "
+"and Dublin Core metadata to optimize your web site for better SEO."
+msgstr "أضف البيانات الوصفية الأساسية وأيضا بطاقات تويتر وبيانات وصفية أخرى لتحسين موقع الويب الخاص بك لتحسين محرك البحث."
+
+#: amt-admin-panel.php:87 amt-admin-panel.php:142
+msgid "Metadata Settings"
+msgstr "إعدادات بيانات التعريف"
+
+#: amt-admin-panel.php:87 amt-admin-panel.php:800
+msgid "Metadata"
+msgstr "بيانات التعريف"
+
+#: amt-admin-panel.php:111
+msgid "You do not have sufficient permissions to access this page."
+msgstr "ليس لديك صلاحيات الوصول لهذه الصفحة"
+
+#: amt-admin-panel.php:143
+msgid "Welcome to the administration panel of the Add-Meta-Tags plugin."
+msgstr "مرحبا بكم في لوحة الإدارة للإضافة (أضف البيانات الوصفية)"
+
+#: amt-admin-panel.php:144
+msgid ""
+"<em>Metadata</em> refers to information that describes the content in a "
+"machine-friendly way. Search engines and other online services use this "
+"metadata to better understand your content. Keep in mind that metadata "
+"itself does not automatically make your blog rank better. For this to happen"
+" the content is still required to meet various quality standards. However, "
+"the presence of accurate and adequate metadata gives search engines and "
+"other services the chance to make less guesses about your content, index and"
+" categorize it better and, eventually, deliver it to an audience that finds "
+"it useful.  Good metadata facilitates this process and thus plays a "
+"significant role in achieving better rankings. This is what the Add-Meta-"
+"Tags plugin does."
+msgstr "<em>البيانات الوصفية</em> تشير إلى معلومات تصف المحتوى بطريقة صديقة للآلة. محركات البحث والخدمات الأخرى عبر الإنترنت تستخدام هذه المعلومات لفهم أفضل للمحتوى الخاص بك. ضع في الحسبان أن هذه البيانات لا تجعل رتبة موقعك أفضل بشكل تلقائي. و لذلك لا يزال هناك حاجة لتلبية معايير الجودة. و مع ذلك إن إضافات هذه البيانات ستقوم بتحسين رتبة موقعك و سوف تساعد محركات البحث على إيصال موقعك لشريحة أكبر من الجمهور. "
+
+#: amt-admin-panel.php:148
+msgid "Message from the author"
+msgstr "رسالة من الكاتب"
+
+#: amt-admin-panel.php:159
+msgid "This message can be deactivated in the settings below."
+msgstr "يمكن إلغاء تنشيط هذه الرسالة في الإعدادات أدناه."
+
+#: amt-admin-panel.php:163
+msgid "How it works"
+msgstr "﻿كيف تعمل"
+
+#: amt-admin-panel.php:165
+msgid ""
+"Add-Meta-Tags tries to follow the \"<em>It just works</em>\" principal. By "
+"default, the <em>description</em> and <em>keywords</em> meta tags are added "
+"to the front page, posts, pages, public custom post types, attachment pages,"
+" category, tag, custom taxonomy and author based archives. Furthermore, it "
+"is possible to enable the generation of <em>Opengraph</em>, <em>Dublin "
+"Core</em>, <em>Twitter Cards</em> and <em>Schema.org</em> metadata. The "
+"plugin also supports some extra SEO related functionality that helps you "
+"fine tune your web site."
+msgstr ""
+
+#: amt-admin-panel.php:167
+msgid ""
+"The automatically generated metadata can be further customized for each "
+"individual post, page, or any public custom post type directly from the "
+"<em>Metadata</em> box inside the post editing panel. If the "
+"<em>Metadata</em> box is not visible, you probably need to enable it at the "
+"<a href=\"http://en.support.wordpress.com/screen-options/\">Screen "
+"Options</a> of the post editing panel."
+msgstr ""
+
+#: amt-admin-panel.php:169
+msgid ""
+"Apart from the customization through the WordPress administration interface,"
+" the generated metadata and specific aspects of the plugin's functionality "
+"can be further customized to a great extent programmatically. Read the "
+"technical notes at the <a href=\"http://www.codetrax.org/projects/wp-add-"
+"meta-tags/wiki\" title=\"Add-Meta-Tags Development web site\">development "
+"web site</a> and find ready sample code snippets for commonly needed "
+"customizations in the <a href=\"http://www.codetrax.org/projects/wp-add-"
+"meta-tags/wiki/Add-Meta-Tags_Cookbook\" title=\"Add-Meta-Tags Cookbook"
+"\">Add-Meta-Tags Cookbook</a>."
+msgstr ""
+
+#: amt-admin-panel.php:174
+msgid "Configuration"
+msgstr "التهيئة"
+
+#: amt-admin-panel.php:176
+msgid ""
+"This section contains global configuration options for the metadata that is "
+"added to your web site."
+msgstr "يحتوي هذا القسم على خيارات التهيئة العالمية للبيانات الوصفية التي يتم إضافتها إلى موقع الويب الخاص بك."
+
+#: amt-admin-panel.php:211 amt-admin-panel.php:214
+msgid "Front Page Metadata"
+msgstr "البيانات الوصفية للصفحة الرئيسية"
+
+#: amt-admin-panel.php:215
+msgid ""
+"It appears that you use static pages on the <em>front page</em> and the "
+"<em>latest posts page</em> of this web site. Please visit the editing panel "
+"of these pages and set the <code>description</code> and the "
+"<code>keywords</code> meta tags in the relevant Metadata box."
+msgstr ""
+
+#: amt-admin-panel.php:220
+#, php-format
+msgid "Edit the <a href=\"%s\">front page</a>"
+msgstr "تعديل <a href=\"%s\">الصفحة الأمامية</a>"
+
+#: amt-admin-panel.php:224
+#, php-format
+msgid "Edit the <a href=\"%s\">posts page</a>"
+msgstr "تعديل <a href=\"%s\">صفحة المقالات</a>"
+
+#: amt-admin-panel.php:237 amt-admin-panel.php:240
+msgid "Front Page Description"
+msgstr "وصف الصفحة الرئيسية"
+
+#: amt-admin-panel.php:245
+msgid ""
+"Enter a short (150-250 characters long) description of your blog. This text "
+"will be used in the <em>description</em> and other similar metatags on the "
+"<strong>front page</strong>. If this is left empty, then the blog's "
+"<em>Tagline</em> from the <a href=\"options-general.php\">General "
+"Options</a> will be used."
+msgstr ""
+
+#: amt-admin-panel.php:253 amt-admin-panel.php:256
+msgid "Front Page Keywords"
+msgstr "الكلمات المفتاحية للصفحة الرئيسية"
+
+#: amt-admin-panel.php:260
+msgid ""
+"Enter a comma-delimited list of keywords for your blog. These keywords will "
+"be used in the <em>keywords</em> meta tag on the <strong>front "
+"page</strong>. If this field is left empty, then all of your blog's <a href"
+"=\"edit-tags.php?taxonomy=category\">categories</a> will be used as keywords"
+" for the <em>keywords</em> meta tag."
+msgstr ""
+
+#: amt-admin-panel.php:261 amt-admin-panel.php:279 amt-admin-panel.php:282
+#: amt-admin-panel.php:326 amt-admin-panel.php:338 amt-admin-panel.php:348
+#: amt-admin-panel.php:360 amt-admin-panel.php:370 amt-admin-panel.php:616
+#: amt-admin-panel.php:664 amt-admin-panel.php:681 amt-admin-panel.php:967
+msgid "Example"
+msgstr "مثال"
+
+#: amt-admin-panel.php:261 amt-admin-panel.php:279
+msgid "keyword1, keyword2, keyword3"
+msgstr "كلمةمفتاحية1, كلمةمفتاحية2, كلمةمفتاحية3"
+
+#: amt-admin-panel.php:271 amt-admin-panel.php:274
+msgid "Global Keywords"
+msgstr "الكلمات الأساسية لكامل الموقع"
+
+#: amt-admin-panel.php:278
+msgid ""
+"Enter a comma-delimited list of global keywords which will be added before "
+"the keywords of <strong>all</strong> posts and pages."
+msgstr ""
+
+#: amt-admin-panel.php:281
+msgid ""
+"By default, these keywords are prepended to the post/page's keywords. For "
+"enhanced flexibility, it is possible to use the <code>%contentkw%</code> "
+"placeholder, which will be populated with the post/page's autogenerated or "
+"user-defined keywords. This way you can globally both prepend and append "
+"keywords to the <em>keywords</em> of your content."
+msgstr ""
+
+#: amt-admin-panel.php:282
+msgid "keyword1, keyword2, %contentkw%, keyword3"
+msgstr "كلمةمفتاحية1, كلمةمفتاحية2, %contentkw%, كلمةمفتاحية3"
+
+#: amt-admin-panel.php:289 amt-admin-panel.php:292
+msgid "Site-wide META tags"
+msgstr ""
+
+#: amt-admin-panel.php:297
+msgid ""
+"Provide the full XHTML code of extra META elements you would like to add to "
+"all the pages of your web site (read more about the <a "
+"href=\"http://en.wikipedia.org/wiki/Meta_element\" target=\"_blank\">META "
+"HTML element</a> on Wikipedia)."
+msgstr ""
+
+#: amt-admin-panel.php:299
+msgid "Examples"
+msgstr "أمثلة"
+
+#: amt-admin-panel.php:311 amt-admin-panel.php:314
+msgid "Publisher Settings"
+msgstr ""
+
+#: amt-admin-panel.php:316
+msgid ""
+"This section contains options related to your web site; the publisher of the"
+" content."
+msgstr ""
+
+#: amt-admin-panel.php:317
+msgid ""
+"The following publisher related settings are shared among all users. Filling"
+" in these settings is entirely optional."
+msgstr ""
+
+#: amt-admin-panel.php:319 metadata\amt_opengraph.php:72
+msgid "Facebook publisher profile URL"
+msgstr "رابط الصفحة الشخصية للناشر على فيسبوك"
+
+#: amt-admin-panel.php:324
+msgid ""
+"Enter an absolute URL to the Facebook profile of the publisher. If this is "
+"filled in, it will be used in the <code>article:publisher</code> meta tag."
+msgstr ""
+
+#: amt-admin-panel.php:331
+msgid "Facebook App ID"
+msgstr ""
+
+#: amt-admin-panel.php:336
+msgid ""
+"Enter the App ID for <a target=\"_blank\" "
+"href=\"https://developers.facebook.com/docs/platforminsights\">Facebook "
+"Insights</a>."
+msgstr ""
+
+#: amt-admin-panel.php:341
+msgid "Facebook Admin ID list"
+msgstr ""
+
+#: amt-admin-panel.php:346
+msgid ""
+"Enter a comma delimited list of numerical Facebook user IDs which will have "
+"access to <a target=\"_blank\" "
+"href=\"https://developers.facebook.com/docs/platforminsights\">Facebook "
+"Insights</a>."
+msgstr ""
+
+#: amt-admin-panel.php:353
+msgid "Google+ publisher profile URL"
+msgstr ""
+
+#: amt-admin-panel.php:358
+msgid ""
+"Enter an absolute URL to the Google+ profile of the publisher. If this is "
+"filled in, it will be used in the link with <code>rel=\"publisher\"</code> "
+"in the HEAD area of the web page."
+msgstr ""
+
+#: amt-admin-panel.php:363 metadata\amt_twitter_cards.php:69
+msgid "Twitter publisher username"
+msgstr "اسم المستخدم للناشر على تويتر"
+
+#: amt-admin-panel.php:368
+msgid "Enter the Twitter username of the publisher (without @)."
+msgstr ""
+
+#: amt-admin-panel.php:378 amt-admin-panel.php:381
+msgid "Basic Metadata"
+msgstr "بيانات التعريف البسيطة"
+
+#: amt-admin-panel.php:384
+msgid "Automatically generate the <em>description</em> meta tag."
+msgstr "توليد تلقائي لـ <em>الشرح</em> بيانات وصفية."
+
+#: amt-admin-panel.php:385
+msgid ""
+"If this option is enabled, the <em>description</em> meta tag is "
+"automatically generated for the content, attachments and archives. "
+"Customization of the <em>description</em> meta tag is possible through the "
+"<em>Metadata</em> box in the post editing screen."
+msgstr ""
+
+#: amt-admin-panel.php:389
+msgid "Automatically generate the <em>keywords</em> meta tag."
+msgstr "توليد تلقائي لـ <em>الكلمات المفتاحية</em> بيانات وصفية."
+
+#: amt-admin-panel.php:390
+msgid ""
+"If this option is enabled, the <em>keywords</em> meta tag is automatically "
+"generated for the content and archives. Keywords are not generated "
+"automatically on pages and attachments. Customization of the "
+"<em>keywords</em> meta tag is possible through the <em>Metadata</em> box in "
+"the post editing screen."
+msgstr ""
+
+#: amt-admin-panel.php:398 amt-admin-panel.php:401
+msgid "Opengraph Metadata"
+msgstr ""
+
+#: amt-admin-panel.php:404
+msgid "Automatically generate Opengraph meta tags."
+msgstr ""
+
+#: amt-admin-panel.php:405
+msgid ""
+"If this option is enabled, Opengraph metadata is automatically generated for"
+" content, attachments and archives. For more information, please refer to "
+"the <a href=\"http://ogp.me\">Opengraph specification</a>."
+msgstr ""
+
+#: amt-admin-panel.php:409
+msgid "Omit <code>og:video</code> meta tags."
+msgstr ""
+
+#: amt-admin-panel.php:410
+msgid ""
+"When a post containing a video is shared on Facebook, Facebook uses its own "
+"player to embed the video in the timeline. If this setting is enabled, "
+"<code>og:video</code> meta tags are no longer generated and Facebook, "
+"instead of embedding your video, links to your actual video post."
+msgstr ""
+
+#: amt-admin-panel.php:413
+msgid "Important Note"
+msgstr "ملاحظة هامة"
+
+#: amt-admin-panel.php:415
+msgid ""
+"By default, this feature sets the URL of the front page of your web site to "
+"the <code>article:publisher</code> meta tag and the URL of the author "
+"archive to the <code>article:author</code> meta tag. In order to link to the"
+" publisher page and the author profile on Facebook, it is required to "
+"provide the respective URLs. These settings can be added to your WordPress "
+"user <a href=\"profile.php\">profile page</a> under the section <em>Contact "
+"Info</em>. Filling in the publisher profile URL is not required, if it has "
+"already been entered in the <em>Publisher Settings</em> above. For example:"
+msgstr ""
+
+#: amt-admin-panel.php:418
+msgid ""
+"It is possible to control the value of the <code>og:type</code> meta tag "
+"either by changing the post format or programmatically via a filter. By "
+"default, the <code>og:type</code> is set to <code>article</code> for all "
+"content, except for video attachment pages and posts whose post format has "
+"been set to <code>video</code>, on which <code>og:type</code> is set to "
+"<code>video.other</code>."
+msgstr ""
+
+#: amt-admin-panel.php:424 amt-admin-panel.php:427
+msgid "Twitter Cards Metadata"
+msgstr "بيانات بطاقات تويتر الوصفية"
+
+#: amt-admin-panel.php:430
+msgid "Automatically generate Twitter Cards meta tags."
+msgstr ""
+
+#: amt-admin-panel.php:431
+msgid ""
+"If this option is enabled, Twitter Cards metadata is automatically generated"
+" for content and attachments. For more information, please refer to the <a "
+"href=\"https://dev.twitter.com/docs/cards\">Twitter Cards specification</a>."
+msgstr ""
+
+#: amt-admin-panel.php:435
+msgid ""
+"Enforce the use of <code>summary_large_image</code> as default card type."
+msgstr ""
+
+#: amt-admin-panel.php:436
+msgid ""
+"If this setting is enabled, <code>summary_large_image</code> will be used as"
+" the default Twitter Card type instead of the <code>summary</code> card "
+"type."
+msgstr ""
+
+#: amt-admin-panel.php:440
+msgid "Enable the generation of <em>player</em> cards for local media."
+msgstr ""
+
+#: amt-admin-panel.php:441
+msgid ""
+"Enable the generation of <em>player</em> cards for locally hosted audio and "
+"video attachments or for posts with their post format set to audio or video."
+" In the latter case, an audio or video is expected to be attached to the "
+"post respectively. A mandatory requirement for this feature, as outlined in "
+"the Twitter Cards specifications, is secure access to your web site over the"
+" HTTPS protocol. If secure access to your web site has not been configured "
+"properly, the player cards will not be rendered by the Twitter service. "
+"Moreover, using self-signed certificates could cause problems which might be"
+" hard to identify. This feature should be considered experimental."
+msgstr ""
+
+#: amt-admin-panel.php:443 amt-admin-panel.php:485
+msgid "Important Notes"
+msgstr "ملاحظات هامة"
+
+#: amt-admin-panel.php:445
+msgid ""
+"In order to generate the <code>twitter:site</code> and "
+"<code>twitter:creator</code> meta tags, it is required to provide the "
+"respective usernames of the Twitter account of the author and/or the "
+"publisher of the content. Update your WordPress user's <a "
+"href=\"profile.php\">profile page</a> and fill in the relevant usernames "
+"under the section <em>Contact Info</em>. Filling in the publisher username "
+"is not required, if it has already been entered in the <em>Publisher "
+"Settings</em> above."
+msgstr ""
+
+#: amt-admin-panel.php:449
+msgid ""
+"By default, a Twitter Card of type <em>summary</em> is generated for your "
+"content. If your theme supports <a "
+"href=\"http://codex.wordpress.org/Post_Formats\">post formats</a>, then it "
+"is possible to generate Twitter Cards of various types according to the "
+"specified post format. More specifically:"
+msgstr ""
+
+#: amt-admin-panel.php:460 amt-admin-panel.php:463
+msgid "Dublin Core Metadata"
+msgstr ""
+
+#: amt-admin-panel.php:466
+msgid "Automatically generate Dublin Core metadata."
+msgstr ""
+
+#: amt-admin-panel.php:467
+msgid ""
+"If this option is enabled, Dublin Core metadata is automatically generated "
+"for your content and attachments. For more information, please refer to <a "
+"href=\"http://dublincore.org\">Dublin Core Metadata Initiative</a>."
+msgstr ""
+
+#: amt-admin-panel.php:474 amt-admin-panel.php:477
+msgid "Schema.org Metadata"
+msgstr ""
+
+#: amt-admin-panel.php:480
+msgid "Automatically generate and embed Schema.org Microdata."
+msgstr ""
+
+#: amt-admin-panel.php:481
+msgid ""
+"Automatically generate Schema.org Microdata and embed it to your content. "
+"This feature embeds <code>meta</code> elements inside the body of the web "
+"page. This is compatible with the HTML 5 standard, so, before enabling it, "
+"make sure your theme is HTML 5 ready. For information about Microdata please"
+" refer to <a href=\"http://schema.org\">Schema.org</a>."
+msgstr ""
+
+#: amt-admin-panel.php:483
+msgid ""
+"This metadata generator actually adds schema.org microdata around the post's"
+" content, because marking up the exact contents of the page in an automatic "
+"manner is technically impossible. Make no mistake, this is not the ideal way"
+" to insert microdata to your web pages. This generator should be considered "
+"as a workaround in case your theme lacks schema.org microdata markup in its "
+"templates and not as a replacement of schema.org enhanced themes."
+msgstr ""
+
+#: amt-admin-panel.php:487
+msgid ""
+"By default, this feature links the author and publisher objects to the "
+"author archive and to the front page of your web site respectively. In order"
+" to link to the author's profile and publisher's page on Google+, it is "
+"required to provide the respective URLs. These settings can be added to your"
+" WordPress user <a href=\"profile.php\">profile page</a> under the section "
+"<em>Contact Info</em>. Filling in the publisher profile URL is not required,"
+" if it has already been entered in the <em>Publisher Settings</em> above."
+msgstr ""
+
+#: amt-admin-panel.php:491
+msgid ""
+"Once you have filled in the URLs to the author profile and the publisher "
+"page on Google+, the relevant link elements with the attributes "
+"<code>rel=\"author\"</code> and <code>rel=\"publisher\"</code> are "
+"automatically added to the head area of the web page."
+msgstr ""
+
+#: amt-admin-panel.php:498 amt-admin-panel.php:501
+msgid "Metabox Features"
+msgstr ""
+
+#: amt-admin-panel.php:503
+msgid ""
+"It is possible to partially customize the generated metadata on a per post "
+"basis through the <em>Metadata</em> metabox which exists in the post editing"
+" screen. Below you can choose which metabox features should be enabled. "
+"Enabling or disabling these features has no effect on the custom data that "
+"has been stored for each post."
+msgstr ""
+
+#: amt-admin-panel.php:507
+msgid "Custom description (<em>Recommended</em>)."
+msgstr "شرح مخصص (<em>موصى به</em>)."
+
+#: amt-admin-panel.php:512
+msgid "Custom keywords (<em>Recommended</em>)."
+msgstr "كلمات مفتاحية مخصصة (<em>موصى بها</em>)."
+
+#: amt-admin-panel.php:517
+msgid "Custom content of the <code>title</code> HTML element."
+msgstr ""
+
+#: amt-admin-panel.php:522
+msgid ""
+"Custom news keywords. (<a target=\"_blank\" "
+"href=\"http://support.google.com/news/publisher/bin/answer.py?hl=en&answer=68297\">more"
+" info</a>)"
+msgstr ""
+
+#: amt-admin-panel.php:527
+msgid "Full meta tags box."
+msgstr ""
+
+#: amt-admin-panel.php:532
+msgid "Global image override."
+msgstr ""
+
+#: amt-admin-panel.php:537
+msgid ""
+"Content locale override. (Not to be used in conjunction with a multilingual "
+"plugin.) "
+msgstr ""
+
+#: amt-admin-panel.php:542
+msgid "Express review. (Experimental feature. For advanced users only.)"
+msgstr ""
+
+#: amt-admin-panel.php:547
+msgid "Referenced items. (Experimental feature. Not recommended.)"
+msgstr ""
+
+#: amt-admin-panel.php:550
+msgid ""
+"The metabox feature selection above affects all users. Advanced "
+"customization of the availability of these features on a per user basis or "
+"depending upon each user's permissions, is possible through the "
+"<code>amt_metadata_metabox_permissions</code> filter."
+msgstr ""
+
+#: amt-admin-panel.php:558 amt-admin-panel.php:561
+msgid "Extra SEO Options"
+msgstr "خيارات إضافية لمحسن محرك البحث SEO"
+
+#: amt-admin-panel.php:564
+msgid ""
+"Add <code>NOODP</code> and <code>NOYDIR</code> to the <em>robots</em> meta "
+"tag."
+msgstr ""
+
+#: amt-admin-panel.php:565
+msgid ""
+"If checked, <code>NOODP</code> and <code>NOYDIR</code> are added to the "
+"<em>robots</em> meta tag on the front page, content and attachments. This "
+"setting will prevent all search engines (at least those that support the "
+"meta tag) from displaying information from the <a "
+"href=\"http://www.dmoz.org/\">Open Directory Project</a> or the <a "
+"href=\"http://dir.yahoo.com/\">Yahoo Directory</a> instead of the "
+"description you set in the <em>description</em> meta tag."
+msgstr ""
+
+#: amt-admin-panel.php:568
+msgid ""
+"Add <code>NOINDEX,FOLLOW</code> to the <em>robots</em> meta tag on following"
+" types of archives. This is an advanced setting that aims at reducing the "
+"amount of duplicate content that gets indexed by search engines:"
+msgstr ""
+
+#: amt-admin-panel.php:572
+msgid "Search results. (<em>Highly recommended</em>)"
+msgstr ""
+
+#: amt-admin-panel.php:577
+msgid "Date based archives. (<em>Recommended</em>)"
+msgstr ""
+
+#: amt-admin-panel.php:582
+msgid "Category based archives."
+msgstr "التصنيف يستند على المحفوظات"
+
+#: amt-admin-panel.php:582 amt-admin-panel.php:587 amt-admin-panel.php:592
+#: amt-admin-panel.php:597
+msgid ""
+"Even if checked, the first page of this type of archive is always indexed."
+msgstr ""
+
+#: amt-admin-panel.php:587
+msgid "Tag based archives."
+msgstr "الوسم يستند على المحفوظات"
+
+#: amt-admin-panel.php:592
+msgid "Custom taxonomy based archives."
+msgstr "التصنيف المخصص يستند على المحفوظات"
+
+#: amt-admin-panel.php:597
+msgid "Author based archives."
+msgstr ""
+
+#: amt-admin-panel.php:606 amt-admin-panel.php:609
+msgid "Locale"
+msgstr ""
+
+#: amt-admin-panel.php:614
+msgid ""
+"Enter a locale which will be used globally in the generated metadata "
+"overriding the default locale as returned by WordPress. Filling in this "
+"setting is only recommended if WordPress does not return a locale in the "
+"form of <code>language_TERRITORY</code>. This feature should not be used in "
+"conjunction with a multilingual plugin in order to avoid the potential "
+"generation of meta tags with invalid locale."
+msgstr ""
+
+#: amt-admin-panel.php:620
+msgid ""
+"Automatically set the HTML document's <code>lang</code> attribute according "
+"to the locale of the content."
+msgstr ""
+
+#: amt-admin-panel.php:621
+msgid ""
+"By enabling this feature, Add-Meta-Tags will automatically set the HTML "
+"document's <code>lang</code> attribute according to the content's locale. "
+"This feature should not be used in conjunction with a multilingual plugin in"
+" order to avoid the potential generation of an invalid <code>lang</code> "
+"attribute."
+msgstr ""
+
+#: amt-admin-panel.php:625
+msgid ""
+"Enable the generation of a <code>link</code> element with the "
+"<code>hreflang</code> attribute."
+msgstr ""
+
+#: amt-admin-panel.php:626
+msgid ""
+"If this feature is enabled, an HTML <code>link</code> element containing the"
+" proper hreflang attribute is added to the head section of the HTML page. "
+"The value of the hreflang attribute is determined by the locale of the "
+"content. This feature should not be used in conjunction with a multilingual "
+"plugin in order to avoid the potential generation of invalid hreflang links."
+msgstr ""
+
+#: amt-admin-panel.php:630
+msgid "Strip region code from the hreflang attribute."
+msgstr ""
+
+#: amt-admin-panel.php:631
+msgid ""
+"By default, Add-Meta-Tags uses the locale, which is usually required to be "
+"set in the form <code>language_TERRITORY</code> so as to comply with the "
+"various metadata specifications, as the value of the hreflang attribute. "
+"However, Google and possibly other services might interpret the regional "
+"information of the hreflang attribute as region targeting. If your content "
+"is not targeted to users in a specific region, it might be a good idea to "
+"strip regional information from this attribute by enabling this option."
+msgstr ""
+
+#: amt-admin-panel.php:632
+msgid ""
+"For instance, if your locale is <code>en_US</code>, by enabling this option "
+"you force the hreflang attribute to be <code>en</code>. In the same way, if "
+"the locale is in the form <code>language_Script_TERRITORY</code>, for "
+"example <code>zh_Hans_TW</code>, by enabling this option the hreflang "
+"attribute becomes <code>zh-Hans</code>."
+msgstr ""
+
+#: amt-admin-panel.php:640 amt-admin-panel.php:643
+msgid "Secure Access"
+msgstr ""
+
+#: amt-admin-panel.php:646
+msgid "Media are accessible over HTTPS."
+msgstr ""
+
+#: amt-admin-panel.php:647
+msgid ""
+"Currently this option, if enabled, lets the plugin make decisions about "
+"whether to generate additional secure links even if the active connection "
+"does not use HTTPS. For instance, if the web site is accessed over HTTP and "
+"this options is enabled, additional <code>og:image:secure_url</code> meta "
+"tags will be generated for your local media. If the current connection uses "
+"HTTPS, then secure links are always generated."
+msgstr ""
+
+#: amt-admin-panel.php:654 amt-admin-panel.php:657
+msgid "Copyright URL"
+msgstr ""
+
+#: amt-admin-panel.php:662
+msgid ""
+"Enter an absolute URL to a document containing copyright and licensing "
+"information about your work. If this URL is set, the relevant meta tags will"
+" be added automatically on all the pages of your web site."
+msgstr ""
+
+#: amt-admin-panel.php:671 amt-admin-panel.php:674
+msgid "Default Image"
+msgstr "الصورة الافتراضية"
+
+#: amt-admin-panel.php:679
+msgid ""
+"Enter an absolute URL to an image that represents your website, for instance"
+" the logo. This image will be used in the metadata of the front page and "
+"also in the metadata of the content, in case no featured image or other "
+"images have been attached or embedded."
+msgstr ""
+
+#: amt-admin-panel.php:688 amt-admin-panel.php:691
+msgid "Extended Metadata Support"
+msgstr ""
+
+#: amt-admin-panel.php:693
+msgid ""
+"Add-Meta-Tags supports the generation of metadata for products and other "
+"post types. Please enable any of the following generators of extended "
+"metadata."
+msgstr ""
+
+#: amt-admin-panel.php:697
+msgid "Metadata for WooCommerce products and product groups."
+msgstr ""
+
+#: amt-admin-panel.php:702
+msgid "Metadata for Easy-Digital-Downloads products and product groups."
+msgstr ""
+
+#: amt-admin-panel.php:705
+msgid ""
+"Please note that if none of the supported products or other supported post "
+"types can be detected, the above settings do not affect the plugin's normal "
+"functionality."
+msgstr ""
+
+#: amt-admin-panel.php:713 amt-admin-panel.php:716
+msgid "Review Mode"
+msgstr "وضع الاستعراض"
+
+#: amt-admin-panel.php:719
+msgid "Enable <em>Metadata Review Mode</em>."
+msgstr ""
+
+#: amt-admin-panel.php:720
+msgid ""
+"If enabled, WordPress users with administrator privileges see a box (right "
+"above the post's content) containing the metadata exactly as it is added in "
+"the HTML head and body. The box is displayed for posts, pages, attachments "
+"and custom post types."
+msgstr ""
+
+#: amt-admin-panel.php:727 amt-admin-panel.php:730
+msgid "Donations"
+msgstr "التبرعات"
+
+#: amt-admin-panel.php:733
+#, php-format
+msgid ""
+"If checked, the <em>message from the author</em> above goes away. Thanks for"
+" <a href=\"%s\">donating</a>!"
+msgstr ""
+
+#: amt-admin-panel.php:747
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: amt-admin-panel.php:750
+msgid "Reset to defaults"
+msgstr "إعادة تعيين إلى الإعدادات الافتراضية"
+
+#: amt-admin-panel.php:913
+msgid "Description"
+msgstr "الوصف"
+
+#: amt-admin-panel.php:916
+msgid ""
+"Enter a custom description of 30-50 words (based on an average word length "
+"of 5 characters)."
+msgstr ""
+
+#: amt-admin-panel.php:923
+msgid ""
+"If the <em>description</em> field is left blank, a <em>description</em> meta"
+" tag will be <strong>automatically</strong> generated from the excerpt or, "
+"if an excerpt has not been set, directly from the first paragraph of the "
+"content."
+msgstr ""
+
+#: amt-admin-panel.php:929 amt-admin-panel.php:935
+msgid ""
+"If the <em>description</em> field is left blank, a <em>description</em> meta"
+" tag will be <strong>automatically</strong> generated from the first "
+"paragraph of the content."
+msgstr ""
+
+#: amt-admin-panel.php:955
+msgid "Keywords"
+msgstr "الكلمات المفتاحية"
+
+#: amt-admin-panel.php:958
+msgid "Enter keywords separated with commas."
+msgstr "أدخل الكلمات المفتاحية مفصولة بفواصل."
+
+#: amt-admin-panel.php:965
+msgid ""
+"If the <em>keywords</em> field is left blank, a <em>keywords</em> meta tag "
+"will be <strong>automatically</strong> generated from the post's categories,"
+" tags, custom taxonomy terms and from the global keywords, if any such "
+"global keywords have been set in the plugin settings. In case you decide to "
+"set a custom list of keywords for this post, it is possible to easily "
+"include the post's categories, tags and custom taxonomy terms in that list "
+"by using the special placeholders <code>%cats%</code>, <code>%tags%</code> "
+"and <code>%terms%</code> respectively."
+msgstr ""
+
+#: amt-admin-panel.php:973 amt-admin-panel.php:979
+msgid ""
+"If the <em>keywords</em> field is left blank, a <em>keywords</em> meta tag "
+"will only be automatically generated from global keywords, if any such "
+"global keywords have been set in the plugin settings."
+msgstr ""
+
+#: amt-admin-panel.php:1000
+msgid "Title"
+msgstr "العنوان"
+
+#: amt-admin-panel.php:1003
+msgid "Enter a custom title to be used in the <em>title</em> tag."
+msgstr ""
+
+#: amt-admin-panel.php:1021
+msgid "News Keywords"
+msgstr ""
+
+#: amt-admin-panel.php:1024
+msgid ""
+"Enter a comma-delimited list of <strong>news keywords</strong>. For more "
+"info about this meta tag, please see this <a target=\"_blank\" "
+"href=\"http://support.google.com/news/publisher/bin/answer.py?hl=en&answer=68297\">Google"
+" help page</a>."
+msgstr ""
+
+#: amt-admin-panel.php:1042
+msgid "Full meta tags"
+msgstr ""
+
+#: amt-admin-panel.php:1045
+msgid ""
+"Provide the full XHTML code of extra META elements you would like to add to "
+"this content (read more about the <a "
+"href=\"http://en.wikipedia.org/wiki/Meta_element\" target=\"_blank\">META "
+"HTML element</a> on Wikipedia)."
+msgstr ""
+
+#: amt-admin-panel.php:1048
+msgid ""
+"For example, to prevent a cached copy of this content from being available "
+"in search engine results, you can add the following metatag:"
+msgstr ""
+
+#: amt-admin-panel.php:1053
+msgid ""
+"Important note: for security reasons only <code>meta</code> elements are "
+"allowed in this box. All other HTML elements are automatically removed."
+msgstr ""
+
+#: amt-admin-panel.php:1071
+msgid "Image URL"
+msgstr ""
+
+#: amt-admin-panel.php:1074
+msgid "Enter an image URL to override all media related meta tags."
+msgstr ""
+
+#: amt-admin-panel.php:1092
+msgid "Content locale"
+msgstr ""
+
+#: amt-admin-panel.php:1095
+msgid ""
+"Override the default locale setting by entering a custom locale for this "
+"content in the form <code>language_TERRITORY</code>, for example: "
+"<code>en_US</code>."
+msgstr ""
+
+#: amt-admin-panel.php:1113
+msgid "Express review"
+msgstr ""
+
+#: amt-admin-panel.php:1116
+msgid ""
+"This field accepts special notation of review related information. If this "
+"info is provided in the correct form, then Add-Meta-Tags treats your content"
+" as being a review of an item and generates proper Schema.org metadata. This"
+" field must contain a <code>__</code> (double underscore) delimited list of "
+"the following information (all in one line): a rating, the name of a valid "
+"schema.org <a href=\"http://schema.org/Thing\">Thing</a> derivative object, "
+"a title, and a URL. For instance:"
+msgstr ""
+
+#: amt-admin-panel.php:1135
+msgid "URLs of referenced items"
+msgstr ""
+
+#: amt-admin-panel.php:1138
+msgid ""
+"Enter a list of canonical URLs (one per line) of items referenced in the "
+"content. The page referenced need not be on the same domain as the content. "
+"For example, you might reference a page where a product can be purchased or "
+"a page that further describes a place. If such references are provided and "
+"if OpenGraph/Schema.org metadata is enabled, then the relevant "
+"<code>og:referenced</code> and <code>referencedItem</code> meta tags will be"
+" generated."
+msgstr ""
+
+#: amt-settings.php:311
+msgid "Add-Meta-Tags options saved"
+msgstr "تم حفظ إعدادات البيانات الوصفية"
+
+#: amt-settings.php:324
+msgid "Add-Meta-Tags options were reset to defaults"
+msgstr "تم إعادة ضبط إعدادات البيانات الوصفية للإعدادات الإفتراضية"
+
+#: metadata\amt_basic.php:247 metadata\amt_opengraph.php:292
+#: metadata\amt_twitter_cards.php:156
+#, php-format
+msgid "Content filed under the %s category."
+msgstr ""
+
+#: metadata\amt_basic.php:274 metadata\amt_opengraph.php:294
+#: metadata\amt_twitter_cards.php:158
+#, php-format
+msgid "Content tagged with %s."
+msgstr ""
+
+#: metadata\amt_basic.php:311 metadata\amt_opengraph.php:300
+#: metadata\amt_twitter_cards.php:164
+#, php-format
+msgid "Content filed under the %s taxonomy."
+msgstr ""
+
+#: metadata\amt_basic.php:351
+#, php-format
+msgid "Content published by %s."
+msgstr "المحتوى منشور من قبل %s."
+
+#: metadata\amt_opengraph.php:65
+msgid "Facebook author profile URL"
+msgstr "رابط الصفحة الشخصية للكاتب على فيسبوك"
+
+#: metadata\amt_schemaorg.php:64
+msgid "Google+ author profile URL"
+msgstr "رابط صفحة غوغل+ للكاتب"
+
+#: metadata\amt_schemaorg.php:71
+msgid "Google+ publisher page URL"
+msgstr "رابط صفحة غوغل+ للناشر"
+
+#: metadata\amt_twitter_cards.php:62
+msgid "Twitter author username"
+msgstr "اسم المستخدم للكاتب على تويتر"

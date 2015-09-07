@@ -7,36 +7,26 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/custom.css"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<?php wp_head(); ?>
 </head>
 <body>
 	<header>
 	
 	
+		<div id="nav-icon" onclick="void(0)"><i class="fa fa-bars"></i></div>	
+
 		<nav class="super-nav super-nav-left">
-		
 			<li><a href="#">
-				<i class="fa fa-fw fa-map-marker"></i>
-			&nbsp; Stockists</a>
+				<i class="fa fa-fw fa-map-marker"></i>&nbsp; Stockists</a>
 			</li>			
-		
 		</nav>
-	
 	
 		<nav class="super-nav" class="cf">
-		
 			<li><a href="#"><i class="fa fa-fw fa-user"></i>&nbsp;Login / Register</a></li>
-
 			<li><a href="#"><i class="fa fa-fw fa-shopping-cart"></i>&nbsp;£0.00</a></li>
 		</nav>
-		
-		
-		
-		
-		
-		
-	
-		<div id="nav-icon" onclick="void(0)"><i class="fa fa-bars"></i></div>
-	
+
 	
 		<div class="d40 no-gutter full">
 		

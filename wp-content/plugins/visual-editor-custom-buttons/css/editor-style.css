@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.d33 { width: 33.33%; float: left; padding: 5%; border: dashed 1px #ccc; box-sizing: border-box; text-align: center; }
+
+section { border: dashed 2px #ccc; padding: 10px; box-sizing: border-box;  }
+section:after { content:""; display:table; clear:both; }
+
+.circle img { border-radius: 50%; width: 100%; }
+
+.panel { padding: 15px; margin: 10px 0; border-top: solid 1px rgba(0,0,0,0.1); border-bottom: solid 1px rgba(0,0,0,0.1); background: rgba(0,0,0,0.02); }
+

@@ -1,56 +1,123 @@
 <?php
 
-// Increase post/media size:
-@ini_set( 'upload_max_size' , '64M' );
-@ini_set( 'post_max_size', '64M');
-@ini_set( 'max_execution_time', '300' );
+	// Increase post/media size:
+	@ini_set( 'upload_max_size' , '64M' );
+	@ini_set( 'post_max_size', '64M');
+	@ini_set( 'max_execution_time', '300' );
 
+	// Remove the annoying admin bar:
+	add_action('get_header', 'remove_admin_login_header');
+	function remove_admin_login_header() {
+		remove_action('wp_head', '_admin_bar_bump_cb');
+	}
 
+	// Basic Panel Shortcode:
+	function panel_shortcode( $atts, $content = null ) {
+		
+		// Default values:
+		$a = shortcode_atts( array(
+			'icon' => '',
+		), $atts );
+		
+		if($a['icon'] !== '') {
+			// Return side version
+			return '<div class="panel c cf">
+				<div class="d33 full featurette">
+				<i class="fa fa-' .$a['icon']. '"></i>
+				
+				</div>
+				<div class="d66 full"><p>'. do_shortcode($content). '</p></div>
+			</div>';
+		}
+		else {
+			return '<div class="panel c"><p>' . do_shortcode($content) . '</p></div>';			
+		}
 
-// Register Custom Post Type
-function products_post_type() {
+	}
+	add_shortcode( 'panel', 'panel_shortcode' );
 
-	$labels = array(
-		'name'                => _x( 'Products', 'Post Type General Name', 'text_domain' ),
-		'singular_name'       => _x( 'Product', 'Post Type Singular Name', 'text_domain' ),
-		'menu_name'           => __( 'Product', 'text_domain' ),
-		'name_admin_bar'      => __( 'Post Type', 'text_domain' ),
-		'parent_item_colon'   => __( 'Parent Product:', 'text_domain' ),
-		'all_items'           => __( 'All Products', 'text_domain' ),
-		'add_new_item'        => __( 'Add New Product', 'text_domain' ),
-		'add_new'             => __( 'New Product', 'text_domain' ),
-		'new_item'            => __( 'New Item', 'text_domain' ),
-		'edit_item'           => __( 'Edit Product', 'text_domain' ),
-		'update_item'         => __( 'Update Product', 'text_domain' ),
-		'view_item'           => __( 'View Product', 'text_domain' ),
-		'search_items'        => __( 'Search products', 'text_domain' ),
-		'not_found'           => __( 'No products found', 'text_domain' ),
-		'not_found_in_trash'  => __( 'No products found in Trash', 'text_domain' ),
-	);
-	$args = array(
-		'label'               => __( 'product', 'text_domain' ),
-		'description'         => __( 'Product information pages', 'text_domain' ),
-		'labels'              => $labels,
-		'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'custom-fields', ),
-		'taxonomies'          => array( 'category', 'post_tag' ),
-		'hierarchical'        => false,
-		'public'              => true,
-		'show_ui'             => true,
-		'show_in_menu'        => true,
-		'menu_position'       => 5,
-		'show_in_admin_bar'   => true,
-		'show_in_nav_menus'   => true,
-		'can_export'          => true,
-		'has_archive'         => true,		
-		'exclude_from_search' => false,
-		'publicly_queryable'  => true,
-		'capability_type'     => 'page',
-	);
-	register_post_type( 'product', $args );
+	
+	// Title Shortcode:
+	function title_shortcode( $atts, $content = null ) {
+		return '<h2 class="m2">' . $content . '</h2>';
+	}
+	add_shortcode( 'title', 'title_shortcode' );
+	
+	
+	// Section Shortcode:
+	function section_shortcode( $atts, $content = null) {
+		return '<section class="cf">' . do_shortcode($content) . '</section>';
+	}
+	add_shortcode('section', 'section_shortcode');
+	
+	// Third / Font Awesome Element Shortcode:
+	function triple_shortcode( $atts ) {
+	
+		// Default values:
+		$a = shortcode_atts( array(
+			'icon1' => 'check',
+			'title1' => 'Title 1',
+			'text1' => '',
+			'icon2' => 'check',
+			'title2' => 'Title 2',
+			'text2' => '',
+			'icon3' => 'check',
+			'title3' => 'Title 3',
+			'text3' => ''
+		), $atts );
+		
+		return "<section class='cf'>
+			<div class='d33 c'>
+				<i class='fa fa-$a[icon1]'></i>
+				<h2>$a[title1]</h2>
+				<p>$a[text1]</p>
+			</div>
+			<div class='d33 c'>
+				<i class='fa fa-$a[icon2]'></i>
+				<h2>$a[title2]</h2>
+				<p>$a[text2]</p>
+			</div>
+			<div class='d33 c'>
+				<i class='fa fa-$a[icon3]'></i>
+				<h2>$a[title3]</h2>
+				<p>$a[text3]</p>
+			</div>			
+		</section>
+		";
 
-}
-
-// Hook into the 'init' action
-add_action( 'init', 'products_post_type', 0 );
-
+	}
+	add_shortcode( 'triple', 'triple_shortcode' );
+	
+	// Photo box element:
+	
+	function photobox_shortcode( $atts ) {
+		
+		$a = shortcode_atts(array(
+			'pic' => 'etc'
+		), $atts);
+		
+		return '<div class="panel photobox" style="background-image: url('. $a["pic"] .')"></div>';
+	}
+	add_shortcode('photobox', 'photobox_shortcode');
+	
+	
+	// Feature box Element Shortcode:
+	/*
+	function featurette_shortcode( $atts, $content = null ) {
+		
+		$a = shortcode_atts(array(
+			'pic' => 'etc'
+		), $atts);
+		
+		return '<div class="panel featurette" style="background-image: url('.$a["pic"] .'); min-height: 45vh;">
+			<div class="page-title">
+		
+		<p>' . do_shortcode($content) . '</p></div></div>';
+	}
+	add_shortcode( 'featurette', 'featurette_shortcode' );
+	*/
+		
+	
+	
+	
 ?>
